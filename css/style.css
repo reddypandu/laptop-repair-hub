@@ -4906,9 +4906,9 @@ input.main-search-input::placeholder {
   gap: 20px;
 }
 .contact__left-item ul li i {
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   border-radius: 50%;
   transition: var(--transition);
