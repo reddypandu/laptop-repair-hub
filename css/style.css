@@ -1,11 +1,5 @@
 /*-----------------------------------------------------------------
 
-Template Name: Gratech - IT Service HTML Template
-Author:  Gramentheme
-Author URI: https://themeforest.net/user/gramentheme/portfolio
-Developer: Kawser Ahmed Roni
-Version: 1.0.0
-Description: Gratech - IT Service HTML5 Template
 
 -------------------------------------------------------------------
 CSS TABLE OF CONTENTS
@@ -34,7 +28,7 @@ CSS TABLE OF CONTENTS
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --kumbh: "Kumbh Sans", sans-serif;
-  --primary-color: #00BFFF;
+  --primary-color: #FFA500;
   --primary10: rgba(60, 114, 252, 0.1);
   --gradient-bg: linear-gradient(90deg, #00BFFF 10.59%, #FFA500 90.59%);
   --secondary-color: #0f0d1d;
@@ -1846,7 +1840,7 @@ input.main-search-input::placeholder {
   right: 100%;
   height: 100%;
   width: 100%;
-  background: var(--primary-color);
+  background: var(--main-bg);
 }
 
 .pace.pace-inactive {
@@ -1870,7 +1864,7 @@ input.main-search-input::placeholder {
   left: 0;
   height: 50%;
   width: 100%;
-  background: var(--black);
+  background: #00BFFF;
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -1882,7 +1876,7 @@ input.main-search-input::placeholder {
   left: 0;
   height: 50%;
   width: 100%;
-  background: var(--black);
+  background:#00BFFF;
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -2297,7 +2291,7 @@ input.main-search-input::placeholder {
 
 .logo {
   display: block;
-  width: 196px;
+  width: 120px;
 }
 .logo img {
   width: 100%;
@@ -2360,7 +2354,7 @@ input.main-search-input::placeholder {
   top: 0;
   left: 0;
   width: 30%;
-  background: linear-gradient(90deg, #00BFFF 10.32%, #FFA500 90.42%);
+  /* background: linear-gradient(90deg, #00BFFF 10.32%, #FFA500 90.42%); */
   height: 100%;
   content: "";
   z-index: -1;
