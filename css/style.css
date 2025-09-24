@@ -2117,7 +2117,7 @@ input.main-search-input::placeholder {
   width: 50%;
   height: 0;
   content: "";
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   z-index: -1;
   transition: var(--transition);
 }
@@ -2128,7 +2128,7 @@ input.main-search-input::placeholder {
   width: 50%;
   height: 0;
   content: "";
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   z-index: -1;
   transition: var(--transition);
 }
