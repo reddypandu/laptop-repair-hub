@@ -28,9 +28,9 @@ CSS TABLE OF CONTENTS
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --kumbh: "Kumbh Sans", sans-serif;
-  --primary-color: #FFA500;
+  --primary-color: #ff6201;
   --primary10: rgba(60, 114, 252, 0.1);
-  --gradient-bg: linear-gradient(90deg, #00BFFF 10.59%, #FFA500 90.59%);
+  --gradient-bg: linear-gradient(90deg, #0021c4 10.59%, #ff6201 90.59%);
   --secondary-color: #0f0d1d;
   --main-bg: #ffffff;
   --sub-bg: #f3f7fb;
@@ -1864,7 +1864,7 @@ input.main-search-input::placeholder {
   left: 0;
   height: 50%;
   width: 100%;
-  background: #00BFFF;
+  background: #0021c4;
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -1876,7 +1876,7 @@ input.main-search-input::placeholder {
   left: 0;
   height: 50%;
   width: 100%;
-  background:#00BFFF;
+  background:#0021c4;
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -2354,7 +2354,7 @@ input.main-search-input::placeholder {
   top: 0;
   left: 0;
   width: 30%;
-  /* background: linear-gradient(90deg, #00BFFF 10.32%, #FFA500 90.42%); */
+  /* background: linear-gradient(90deg, #0021c4 10.32%, #FFA500 90.42%); */
   height: 100%;
   content: "";
   z-index: -1;
@@ -5310,7 +5310,7 @@ input.main-search-input::placeholder {
   height: 50px;
   bottom: 150px;
   right: 25px;
-  background-color: #00BFFF;
+  background-color: #0021c4;
   border: white 1px solid;
   color: #fff;
   border-radius: 50px;
