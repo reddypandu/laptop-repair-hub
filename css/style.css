@@ -5372,7 +5372,22 @@ i.fa-solid.fa-phone-volume {
 }
 
 .modal-content {
-  padding: 10px;
+  background: rgba(255, 255, 255, 0.95); /* semi-glass white */
+box-shadow: inset 2px 2px 10px rgba(0,0,0,1),
+  inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+  animation: popupScale 0.3s ease-in-out;
+}
+
+/* Smooth popup animation */
+@keyframes popupScale {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .usp {
