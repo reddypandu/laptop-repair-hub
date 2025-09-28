@@ -4077,9 +4077,15 @@ color: var(--primary-color);
   transition: var(--transition);
   margin: 0 auto;
   background: linear-gradient(180deg, #3b6280 -210.71%, #00060c 100%);
+  z-index: -1;
+  position: relative;
   margin-top: -35px;
   transition: 1s;
 }
+.offer__icon svg path{
+fill: white !important;
+}
+
 .offer__item {
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
@@ -4088,6 +4094,9 @@ color: var(--primary-color);
   text-align: center;
   cursor: pointer;
   position: relative;
+}
+.offer__item i{
+  color: white !important;
 }
 @media (max-width: 991px) {
   .offer__item {
