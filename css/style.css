@@ -28,7 +28,7 @@ CSS TABLE OF CONTENTS
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
   --kumbh: "Kumbh Sans", sans-serif;
-  --primary-color: #ff6201;
+  --primary-color: #3c72fc;
   --primary10: rgba(60, 114, 252, 0.1);
   --gradient-bg: linear-gradient(90deg, #0021c4 10.59%, #ff6201 90.59%);
   --secondary-color: #0f0d1d;
