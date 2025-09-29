@@ -2302,7 +2302,11 @@ input.main-search-input::placeholder {
 .logo img {
   width: 100%;
 }
-
+@media(max-width:992px){
+  .logo {
+    width: 50px;
+  }
+}
 .header-top {
   padding: 16px 0;
   overflow: hidden;
