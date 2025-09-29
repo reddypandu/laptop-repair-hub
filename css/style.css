@@ -2005,7 +2005,7 @@ input.main-search-input::placeholder {
   width: 6px;
   height: 6px;
   z-index: 10000001;
-  background-color: var(--primary-color);
+  background-color: var(--white);
   -webkit-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   -o-transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin 0.3s ease-in-out, opacity 0.3s ease-in-out;
@@ -2016,7 +2016,7 @@ input.main-search-input::placeholder {
   margin-top: -35px;
   width: 70px;
   height: 70px;
-  background-color: var(--primary-color);
+  background-color: var(--white);
   opacity: 0.3;
 }
 
@@ -3194,8 +3194,8 @@ input.main-search-input::placeholder {
   z-index: -1;
 }
 .service__icon {
-  width: 70px;
-  height: 70px;
+  /* width: 70px;
+  height: 70px; */
   line-height: 70px;
   text-align: center;
 
